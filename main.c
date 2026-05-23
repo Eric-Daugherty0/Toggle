@@ -52,7 +52,7 @@ int main(void)
 		*pPortAOutReg |= (1 << 5);
 
 		//Introduce a delay
-		//This loop executes 10000k times.
+		//This loop executes 300000k times.
 		for(uint32_t i = 0; i < 300000 ; i++);
 
 		//Turn off the LED
